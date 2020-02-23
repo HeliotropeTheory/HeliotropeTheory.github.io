@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<!--Set up-->
+			<meta charset="utf-8">
+			<meta lang="en-us">
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
-		<body>
-			<h1> Heliotrope Theory </h1>
+		
+		<body>	
+		<!--Background for background image-->
+		<section class="background">
+			
+			<!-- Inner part of the website-->
+			<div class="inner">
+				
+			<!--Website Title-->	
+			<h1> {{page.header}} </h1>
+			
+			<!--Navigation bar-->
 			<nav>
-	    		<ul>
+	    			<ul>
 	        		<li><a href="/">Home</a></li>
 				<li><a href="/about/">About</a></li>
 	        		<li><a href="/game/">Game</a></li>
 	        		<!--<li><a href="/blog">Blog</a></li> -->
-	    		</ul>
+	    			</ul>
 			</nav>
 			<div class="container">
 			
@@ -22,10 +35,11 @@
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-	        		<!--<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>-->
 	        		<li><a href="https://heliotropetheory.github.io/">https://heliotropetheory.github.io/</a></li>
 				</ul>
 			</footer>
+			</div>
+			</section>
 		</body>
 	</html>
  
