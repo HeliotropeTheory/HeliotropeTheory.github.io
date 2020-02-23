@@ -6,12 +6,12 @@ window.onload = function(){
 		width: 800,
 		height: 600,
 	
-		physics: {
+		/*physics: {
 			default: 'arcade',
 			arcade: {
 				debug: false,
 			}
-		},
+		},*/
 		
 		//Parent set the DOM id of the game 
 		//which allows the html file to referrence it.
