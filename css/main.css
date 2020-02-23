@@ -15,26 +15,48 @@ html, body {
 	background-size: cover;
 }
 
+.inner{
+	margin: 50px auto;
+	background: rgba(220, 225, 220, 0.9);
+	max-width: 900px;
+	min-width: 900px;
+}
+
+.container{
+	padding: 10px 50px;
+	margin: 0;
+	text-align: left;
+}
+
+h1 {
+	padding: 20px;
+	margin: 0;
+    	font-size: 3em;
+    	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	color: 	#004144;
+	text-shadow: 1px 1px #006756;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 10px 50px;
     list-style: none;
     font-weight: bold;
+	color: 	#5B5D69;
+	display: table-cell;
 }
+
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+	display: inline;
+	margin-right: 20px;
+	color: 	#5B5D69;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: 	#494968;
 }
 a:hover {
     text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
