@@ -16,11 +16,11 @@ window.onload = function(){
 		//Parent set the DOM id of the game 
 		//which allows the html file to referrence it.
 		parent: 'phaser-game',
-		scene: [ 
-			SceneMainMenu,
-			SceneMain,
-			SceneGameOver
-		]
+		//scene: [ 
+			//SceneMainMenu,
+			//SceneMain,
+			//SceneGameOver
+		//]
 		
 		/*{
 			preload: preload,
