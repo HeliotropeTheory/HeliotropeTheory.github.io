@@ -9,7 +9,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url("/succulent.jpg") no-repeat 50% 50%;
+	background: url("/images/succulent.jpg") no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
