@@ -3,6 +3,16 @@ layout: default
 title: HeliotropeTheory
 header: HeliotropeTheory
 ---
-	<script src="js/phaser.min.js"></script>
-	<script src="js/main.js"></script>
-	<div id="phaser-game"></div>
+		<!--Container to offset the game box-->
+		<div class="game">
+		
+		<!--Scripts-->
+		<script src="js/main.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/display.js"></script>
+		<script src="js/controller.js"></script>
+		<script src="js/map.js"></script>
+		
+		<!--Game canvas.  Must be here to be above the footer-->
+		<canvas id = "gameScreen" width = "800" height = "600"></canvas>
+		</div>
