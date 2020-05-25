@@ -1,32 +1,23 @@
-//var game;
-//var controls;
 window.onload = function(){
-	var config = {
-		type: Phaser.AUTO,
-		width: 800,
-		height: 600,
-	
-		/*physics: {
-			default: 'arcade',
-			arcade: {
-				debug: false,
-			}
-		},*/
-		
-		//Parent set the DOM id of the game 
-		//which allows the html file to referrence it.
-		parent: 'phaser-game',
-		//scene: [ 
-			//SceneMainMenu,
-			//SceneMain,
-			//SceneGameOver
-		//]
-		
-		/*{
-			preload: preload,
-			create: create,
-			update: update
-		}*/
-	};
-	var game = new Phaser.Game(config);
+let canvas = document.getElementById("gameScreen");
+var grid = document.getElementsByClassName("game");
+
+//Objects//
+var game = new Game();
+var display = new Display(canvas);
+var controller = new Controller();
+var map =  new Map();
+
+//Variables//
+var map1 = map.create();
+
+var mouseMove = function(event){
+	display.draw(map1);
+};
+
+
+game.start();
+display.draw('#f00');
+
+canvas.addEventListener("mousemove",mouseMove);
 }
